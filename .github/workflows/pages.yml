@@ -1,0 +1,49 @@
+name: Deploy Oventure website
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/pages.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download verified Oventure release
+        run: |
+          curl --fail --location --retry 5 \
+            https://nic-hub.tailb28fab.ts.net:8443/oventure-github-pages.tar.gz \
+            --output oventure-site.tar.gz
+          echo "5d3ffae48802a89cd1ef80cd4fb36cae096d157483c0af71b1eaa1c46441b7e7  oventure-site.tar.gz" | sha256sum --check
+          mkdir _site
+          tar --extract --gzip --file oventure-site.tar.gz --directory _site
+          test -f _site/index.html
+          test -f _site/enterprise/index.html
+          test -f _site/Oventure-Enterprise-Deck.pdf
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
