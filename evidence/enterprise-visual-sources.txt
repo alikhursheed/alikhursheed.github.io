@@ -1,0 +1,9 @@
+Oventure enterprise presentation — visual sources
+
+Coordination artwork: existing Oventure brand illustration, retained from the original presentation. It is conceptual imagery, not a photograph of a client deployment.
+
+Techstars, Google for Startups, NetSol Technologies and DESCON assets: retained from the existing Oventure credential library. The relationship descriptions and source links are in the main presentation's Team experience section. These marks represent specified prior venture, program or professional experience, not Oventure customers or endorsements.
+
+GitHub, HubSpot, ClickUp and Trello icons: Simple Icons project, https://github.com/simple-icons/simple-icons. Used to identify example tools. No partnership or certification is implied; product access and integration features require a scope-specific check.
+
+Workflow and opportunity diagrams: original interface diagrams for this presentation. Demonstrations remain illustrative; no production systems are connected.

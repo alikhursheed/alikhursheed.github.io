@@ -1,0 +1,46 @@
+Oventure — about the numbers
+Reviewed 11 September 2026
+
+COMPANIES INCLUDED
+The directory has 99 companies. Each has one row in network-records.csv. The company count, revenue and investment totals use that same list, without adding any company twice.
+
+The list uses NICAT's Selected Startup --> Base A and All Startups Most Updated Data records. Known dropouts, inactive businesses, confirmed departures and applicants not yet inducted are excluded. Three ventures without a supported general commercial offering are also excluded from both the directory and totals. This is a historical library from the stated source snapshot, not a verified current delivery roster. Current participation and availability are checked separately for a proposed engagement.
+
+WHAT THE FINANCIAL TOTALS MEAN
+Reported revenue: $21,842,489.08 USD equivalent.
+Reported investment raised: $5,706,704.60 USD equivalent.
+
+These combine the companies' reported histories. Reporting periods vary, so the totals do not describe one financial year. Investment raised means money received, not money promised. 74 companies have positive reported revenue in this dataset. A record without a positive amount is not proof that the business has no revenue. Missing amounts are not treated as evidence of zero revenue.
+
+Totals use the original unrounded amounts. Downloaded row values are rounded to cents. These are company-reported figures, not audited accounts for the new commercial offering.
+
+WHY THE FIGURES ARE IN USD
+We divide the original amounts by PKR 277.3646 per US dollar, the State Bank of Pakistan M2M rate recorded from its homepage on 9 September 2026. This helps US readers compare the figures. It does not mean the original payments were made in dollars.
+
+COMPANY PROFILES
+The products and work examples belong to the named companies. Usage figures, awards and partnerships are described separately; they are not added together as clients. We confirm people, working hours and availability for each proposed project.
+
+TEAM COST CALCULATOR
+The starting numbers are examples, not Oventure quotes. Optional US salary presets use BLS national median wages for May 2025, with source links beside the controls. Salary is per person per year; the Oventure fee is the total monthly fee for its stated team.
+US monthly cost = full-time roles × annual salary /12 × (1 + employer-cost percentage /100), plus management and tools.
+Oventure monthly cost = the entered fee + your supervision cost + costs outside the fee.
+Each plan is multiplied by the chosen number of months, then its one-time setup costs are added. US and Oventure role counts are displayed separately. Different team sizes suppress savings percentages. Changing Oventure headcount requires updating or confirming the fixed total fee; it is never silently multiplied as a per-person price. Same role counts still require comparable skills, scope and coverage.
+
+NO-QUOTE BUDGET VIEW
+The monthly whole-team fee ceiling = (US total cost minus Oventure one-time setup) / months, minus retained monthly supervision and other monthly costs outside the fee. It does not use an Oventure quote. The displayed ceiling is rounded down to whole dollars so it does not exceed the entered budget. A negative ceiling means setup and retained costs already exceed the US budget. This is a budget threshold, not an available price or a performance guarantee.
+
+The quick view links role counts by default. Advanced controls allow different staffing plans, keep their counts visible and suppress a like-for-like savings percentage. Changing the linked headcount requires the existing whole-team fee to be reviewed. Benefits, management, tools and setup remain active when their controls are collapsed. For a mixed team, use a full-time-equivalent weighted average annual salary.
+
+TEAM SIZE ESTIMATE
+Monthly staff hours = tasks × combined staff minutes per task /60, plus the entered allowance for checks and coordination. Divide this by task hours per full-time person to estimate team size. Round up in half-role steps. The application button explicitly changes only the US hiring plan; the Oventure team and its total fee are set separately.
+
+TIME CALCULATOR
+Current staff hours = monthly items × combined staff minutes per item /60. Two people working five minutes each contribute ten staff-minutes.
+Automated-process hours = checking time for every item + extra time for unusual cases + monthly system-monitoring hours.
+The difference is estimated time freed up, or extra time needed. Its value uses the entered average loaded cost per person-hour, rather than the cost of the whole team. Freeing time does not automatically reduce payroll. Setup and software costs are separate.
+
+LEADERSHIP AND INTERNAL PROJECT EXPERIENCE
+The leadership-impact strip is from supplied historical background and is separate from the 99-company directory. Capital raised by advised companies and network investment are not added together. The internal operating-system case is a team-reported NICAT programme project. See leadership-impact.txt and nicat-operations-case.txt for scope.
+
+PAKISTAN INDUSTRY AND WORKING HOURS
+Pakistan annual IT exports of $4.6B are the July 2026 government announcement reported by APP, not Oventure revenue. Example US review windows account for daylight and standard time; Pakistan remains UTC+5. The schedule is an example to agree with the team, not an automatic evening-coverage commitment. See research-notes.txt for sources.

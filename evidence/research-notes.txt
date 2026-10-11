@@ -1,0 +1,88 @@
+Oventure website research notes — updated 12 September 2026
+
+PAKISTAN INDUSTRY
+Pakistan annual IT exports: $4.6 billion, reported in a Prime Minister's Office announcement covered by APP on 23 July 2026. This is national industry context, not Oventure revenue or a guarantee of supplier performance.
+https://www.app.com.pk/national/pm-shehbaz-reviews-progress-on-it-roadmap-vows-to-boost-digital-economy-and-exports/
+
+US WAGE BENCHMARKS
+May 2025 national median annual wages: software developers $135,980; software QA analysts/testers $104,300. These are occupation-specific wages, not Silicon Valley senior packages or full employer costs.
+https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
+Customer service representatives: $44,770 annual / $21.53 hourly in the BLS May 2025 publication. The annual value is the BLS published figure, not a multiplication of the rounded hourly figure. This role is not a benchmark for every back-office function.
+https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm
+
+WORKING HOURS
+Pakistan uses UTC+5. Pacific is UTC-7 during US daylight time and UTC-8 in standard time; Eastern is UTC-4 / UTC-5. A 9–11am Pacific review corresponds to 9–11pm or 10pm–midnight in Pakistan. Eastern corresponds to 6–8pm or 7–9pm. Shared hours and staffing must be agreed for the project.
+https://data.iana.org/time-zones/tzdb/asia
+https://data.iana.org/time-zones/tzdb/northamerica
+https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst
+
+PUBLISHED PRODUCT AND DELIVERY EXAMPLES
+NerdFlow / ReceptAI / HostBNB: property-aware guest communication and the company-reported deployment. The property count is company-reported.
+https://www.nerdflow.tech/
+RedMarker: published BISE Peshawar assessment pilot, covering the review process, training, scanning and results.
+https://redmarker.io/
+Veyn: product capability for gathering CRM, order and support context to prepare human-reviewed replies.
+https://veyn.ai/products/autovox-ai-email-copilot/
+Jazz: 21 October 2025 confirmation of a city-wide LoRaWAN launch with DynaSys in Lahore. It does not establish completed nationwide coverage.
+https://jazz.com.pk/media-center/detail/jazz-and-dynasys-kickstart-smart-city-revolution-with-pakistans-first-city-wide-lorawan-network
+DynaSys: ALEF platform and the announced TSGN collaboration. Planned integration is not presented as completed work.
+https://www.dynasysnetworks.com/dynasys_tsgn_join_forces
+
+DELIVERY DESIGN REFERENCES
+DORA describes delivery measures such as change lead time and failed deployment recovery time; the site uses these as possible measures for an agreed scope, not a claim of certified performance.
+https://dora.dev/guides/dora-metrics/
+GitHub describes configurable review and status-check protections. Availability and project rules must be checked.
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches
+Anthropic's workflow guidance informed the separation of predictable steps, retrieval and review from open-ended AI behavior.
+https://www.anthropic.com/engineering/building-effective-agents
+
+COMMERCIAL PATTERNS REVIEWED
+Global Staffing Hub, Toptal, BairesDev and SupportNinja were reviewed for offer structure, management ownership, proof, onboarding and buyer questions. Competitor rates, certifications and unsupported comparison claims were not adopted. Oventure’s three delivery commitments were separately confirmed for this offer.
+https://globalstaffinghub.com/
+https://www.toptal.com/faq
+https://www.bairesdev.com/software-development-services/
+https://www.supportninja.com/
+
+The original OV country comparison mixed internet-user counts with whole-country populations and used figures with inconsistent periods. It was replaced with a buyer-focused comparison of hiring, delivery ownership, total cost and working hours. Original historical ecosystem totals are not blended with the current directory.
+
+BUYER COMPARISON — REVIEWED 12 SEPTEMBER 2026
+The Oventure comparison describes buying models, not universal competitor performance. Freelance platforms support ongoing teams as well as one-off work; agencies and BPO providers offer different levels of management and automation. Compare the actual scope, management, quality, overlap, continuity, tooling and total commercial commitment.
+https://www.upwork.com/i/how-it-works/client/
+https://www.bairesdev.com/staff-augmentation/
+https://www.supportninja.com/how-it-works
+
+Oventure publishes three service commitments: productive work starts within 48–72 hours of a signed agreement, a two-week risk-free trial, and replacement within 7–10 business days when a team member is not the right fit. Written proposals document the terms and responsibility split. These are Oventure commercial commitments, not historical delivery results or claims about competing providers. Fixed-price packages, unconditional refunds and free-replacement pricing are not inferred from the reference deck.
+
+The responsibility wheel maps who handles each part of an engagement; its equal-length spokes are not performance scores. The visible buying-model table includes freelancers, staffing services, managed agencies/BPOs and US in-house hiring.
+https://www.toptal.com/managed-delivery
+
+FINAL PRESENTATION AUDIT — 12 SEPTEMBER 2026
+The final homepage leads with buyer needs, management choices, inspectable work and contact. The detailed company library remains historical; current delivery participation is confirmed for each proposed engagement. The leadership metrics are prior-role experience.
+
+Aabshar's participation in the Techstars WaterTech & Sustainability Accelerator, Fall 2024, is confirmed by Techstars:
+https://www.techstars.com/blog/program-news/techstars-watertech-and-sustainability-accelerator-unveils-its-fall-2024
+
+The supplied COLLAB P presentation informed the coordination story and emphasis on concrete outputs. Its provider-revenue projections, national-impact forecasts and procurement assumptions were not used as Oventure results. The supplied CV, OV deck and HTML were reviewed against the public wording.
+
+TECHNICAL OFFER REVIEW — 12 SEPTEMBER 2026
+Contextual AI is a working assistant with agreed sources, access checks, source-refresh rules, answer evaluation and operating instructions. Access is enforced before retrieval; a broadly authorised connector alone does not establish each user's right to see a record. Links support traceability, not guaranteed accuracy.
+https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search
+
+Workflow automation is a configured integration with tested triggers, actions, approval pauses, run records and recovery instructions. Repeated events and retries can duplicate actions unless tracking and destination-specific checks are designed and tested. A duplicate-invoice check is separate from preventing an action from running twice. Monitoring ownership and log retention are agreed in the project plan.
+https://shopify.dev/docs/apps/build/webhooks/verify-deliveries
+https://help.zapier.com/hc/en-us/articles/8496260269965-How-Zapier-handles-duplicate-data-in-Zap-workflows
+https://help.make.com/incomplete-executions
+https://docs.langchain.com/oss/python/langchain/human-in-the-loop
+
+The HubSpot example references the Deals API and associated records; deal stages and required properties are checked for the customer's account.
+https://developers.hubspot.com/docs/api-reference/legacy/crm/objects/deals/guide
+
+The back-office report is a fictional format example: 20 open + 100 received - 96 completed = 24 open; 16 processing and 8 awaiting a customer decision. Quality sampling covers 20 completed items: 19 pass first check and 1 is corrected. These are not Oventure delivery results or service guarantees.
+
+EXCHANGE-RATE SOURCE QUALIFICATION
+The stated PKR 277.3646/USD rate is based on an SBP homepage observation dated 9 September 2026. A separately accessible dated archival publication was not verified in the follow-up audit. The same fixed rate is used consistently in the directory and calculations; it is not a live conversion or current quote.
+
+PEOPLE-LED SERVICES AND AGENTIC AI
+Managed back office is a people-led service. Contextual AI assistants, fixed workflows and agentic AI describe software approaches that may support that service. The site distinguishes answers from approved records, predefined execution paths and AI-directed tool selection within agreed limits. Any agentic build is separately scoped with permitted tools, approvals, step/time limits, monitoring and stopping conditions. Existing demonstrations remain illustrative records and prepared outputs, not live agents.
+https://www.anthropic.com/engineering/building-effective-agents
+https://docs.langchain.com/oss/python/langchain/human-in-the-loop
